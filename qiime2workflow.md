@@ -121,7 +121,7 @@ qiime feature-table tabulate-seqs \
  	--i-data rep-seqs.qza \
   --o-visualization rep-seqs.qzv
 ```
-**Step 10: Make a phylogenetic tree for further analysis**
+**Step 9: Make a phylogenetic tree for further analysis**
 
 This step is so that when doing further analysis, you know what species/genus relates to each amplicon/your 'paired reads'.  
 ```
@@ -134,6 +134,6 @@ qiime phylogeny align-to-tree-mafft-fasttree \
 ```
 
 
-**Step 9: Further analysis**
+**Step 10: Further analysis**
 
 Now you can perform any diversity measures/analysis you find suitable (a quick google will bring up the coding you will need)
